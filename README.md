@@ -1,12 +1,8 @@
-This is a repo to experiment using a shader for vertex and fragment in composition with a Standard material.
+This small repo shows a proposal for command a unit over a flat hexagonal terrain
+- `@lume/three-meshline` for line draw.
+- `@miniplex` as ECS system.
+- `honeycomb-grid` for hex grid and helpers.
+- `ngraph.graph` and `ngraph.path` for path finding.
+- `react` and `@react-three` for 3D
 
-# Credits
-## Jar 3D model
-by Citron Vert from Sketchfab https://sketchfab.com/3d-models/brain-in-a-jar-6f6f748d02544a779a999d7cc9b0f6a6
-
-## Shader
-Original refference: https://twitter.com/zozuar/status/1621229990267310081?s=20
-Shadertoy adaptation: https://www.shadertoy.com/view/clXXDl
-
-## Glass container
-Transmission material from Drei https://github.com/pmndrs/drei#meshtransmissionmaterial
+<img width="639" alt="image" src="https://user-images.githubusercontent.com/1474823/225448265-847ade0b-aee0-43ca-83b2-4f258fedc0a1.png">
