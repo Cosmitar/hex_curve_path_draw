@@ -1,0 +1,47 @@
+{
+  "name": "lightning-particles-shader",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@lume/three-meshline": "^4.0.5",
+    "@miniplex/core": "2.0.0-next.20",
+    "@miniplex/react": "^2.0.0-next.20",
+    "@react-three/drei": "9.56.0",
+    "@react-three/fiber": "8.10.1",
+    "@react-three/postprocessing": "2.7.0",
+    "easystarjs": "^0.4.4",
+    "honeycomb-grid": "^4.0.1",
+    "leva": "0.9.34",
+    "ngraph.graph": "^20.0.1",
+    "ngraph.path": "^1.4.0",
+    "postprocessing": "6.29.3",
+    "r3f-perf": "^7.1.2",
+    "ramda": "^0.28.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "0.148.0",
+    "three-stdlib": "2.21.5",
+    "troika-three-utils": "^0.47.0"
+  },
+  "devDependencies": {
+    "@types/ramda": "0.28.21",
+    "@types/react-dom": "^18.0.8",
+    "@types/three": "0.148.0",
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
